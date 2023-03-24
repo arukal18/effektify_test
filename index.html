@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Effektify Metrics Dashboards</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="dashboard.js"></script>
+  <style>
+    .chart-container {
+      display: inline-block;
+      width: 30%;
+      margin-right: 5%;
+      margin-bottom: 20px;
+      vertical-align: top;
+    }
+    h1{
+        padding: 5px;
+	    font-size: 25px;
+		font-family:Arial, Helvetica, sans-serif;
+		color: rgb(128, 0, 58);	
+        text-align: center;
+        background: #e1e1e1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Effektify Metrics Dashboards</h1>
+  <div class="chart-container">
+    <canvas id="usersChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="accountsChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="integrationsChart"></canvas>
+  </div>
+</body>
+</html>
